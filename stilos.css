@@ -1,0 +1,138 @@
+
+
+.contenedor-fluid {
+
+    width: 1200px;
+
+    height: 2000px;
+
+    background-color: rgb(225, 212, 212);
+
+    margin: 0.5em auto;
+
+    padding: 0.5em;
+margin: 0.5em auto;
+padding: 0.5em;
+display: flex;
+flex-wrap: wrap;
+}
+#header {
+width: 100%;
+margin: 0.5em;
+height: 90px;
+background: #10EcB6;
+border-radius: 1em;
+
+
+
+
+font-family:'Fuenteweb.ttf';
+text-align: center;
+font-size: 80px;
+
+align-items: center;
+justify-content: center;
+display: flex;
+
+
+
+}
+#RedesSociales{
+
+    list-style: none;
+    clear: both;
+    width: 97%;
+    height: 40px;
+    background:  #10EcB6;
+    border-radius: 1em;
+    
+    color: black;
+    text-align: right;
+    float: left;
+    list-style: none;
+    margin: 1em;
+    font-size: 25px;
+  
+    display: flex;
+    justify-content:right;
+    list-style:none;
+    float: right;
+    font-size: 25px;
+    position: relative;}
+
+ul.RedesSociales  {
+    clear: both;
+       float: left;
+       width: 100%;
+       list-style: none;
+       margin: 0;
+       padding: 0;
+       border-left:  1px solid #7C7C7C; 
+   
+}
+ul.RedesSociales li {
+   float: left;
+       width: 16%;
+   flex-basis: 0;
+   flex-grow: 1;
+   
+
+       
+}
+ul.RedesSociales li a: link {
+   float: left;
+       width: 16%;
+font-family:robot;
+}
+
+ul.RedesSociales li a:link 
+  
+   ul.RedesSociales li a: visited {
+       padding:  .2em 0 .2em .5em; 
+       display: flex;
+       flex-direction: column;
+       text-decoration: none;
+           color: #333;
+       background: #F4F4F4;
+           border-top: 1px solid #7C7C7C;
+       border-right: 1px solid #7C7C7C;
+       border-bottom: 1px solid #9C9C9C;
+
+   
+}
+
+
+      
+      ul.RedesSociales a:hover{
+       background-color: aqua;
+
+} 
+
+.brand img {
+    padding-right: 5px;
+     position: relative;
+     bottom: 0;
+     right: 30px;
+     width: 30px;}
+
+#contenido {
+    width: 97%;
+    height: 85%;
+    background-color: blue;
+    padding: 1em;
+    margin:1em;
+}
+ 
+ #footer{
+    width: 97%;
+    height: 50px;
+    text-align: justify;
+    float: right;
+    background-color: #10EcB6;
+    list-style: none;
+    display: flex;
+    margin: 1em;
+    border-radius: 1em;
+    font-size: 30px;
+   
+}   
