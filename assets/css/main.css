@@ -219,6 +219,9 @@ input, select, textarea {
 			border-bottom: 0;
             
 		}
+h1 {
+    font-size: 0.5em;
+}
 	
 
 	h2 {
@@ -3031,6 +3034,7 @@ input, select, textarea {
 
 	section.special, article.special {
 		text-align: center;
+        
 	}
 
 	header p {
@@ -3041,6 +3045,7 @@ input, select, textarea {
 		line-height: 2.5;
 		margin-top: -1em;
 		text-transform: uppercase;
+    
 	}
 
 /* Table */
@@ -3289,8 +3294,9 @@ input, select, textarea {
 				max-width: 12.5em;
 				opacity: 1;
 				padding: 0 0.5em 0 0;
-			}
 
+}
+  
 		@media screen and (max-width: 980px) {
 
 			#header .links {
@@ -3315,6 +3321,44 @@ input, select, textarea {
 				}
 
 		}
+
+/*Contenido*/
+
+
+#contenido {
+    max-width: 100%;
+    padding: 4.5 em;
+    width: 90em;
+    margin: auto0;
+}
+
+@media screen and (max-width: 1680px) {
+
+			#contenido {
+				padding: 3em;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#contenido {
+				display: block;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#contenido {
+				padding: 1.5em;
+			}
+
+		}
+
+		body.single #contenido {
+			display: block;
+}
 
 /* Wrapper */
 
@@ -3616,3 +3660,4 @@ input, select, textarea {
 			}
 
 		}
+
